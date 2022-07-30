@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+}
+.Image {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*h1 {
+  color: rgba(138, 11, 11, 0.904);
+  font: size 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.area {
+  background-color: rgb(198, 218, 219);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin: 20px;
+  color: rgb(8, 1, 1);
+  font-size: large;
+  cursor: auto;
+  border: solid;
+}
+.btn1,
+.res,
+.upp,
+.low {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+}
+/* .res {
+  background-color: #4caf50; 
+  border: transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}*/
+.res:hover,
+.btn1:hover,
+.upp:hover,
+.low:hover {
+  background-color: rgb(4, 95, 53);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#number {
+  width: 30%;
+  background: none;
+  border: none;
+}
+#character {
+  width: 30%;
+  background: none;
+  border: none;
+}
+#vowel {
+  width: 30%;
+  background: none;
+  border: none;
+}
+#consonant {
+  width: 20%;
+  background: none;
+  border: none;
+}
+#special {
+  width: 20%;
+  background: none;
+  border: none;
+}

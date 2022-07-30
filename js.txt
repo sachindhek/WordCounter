@@ -1,0 +1,51 @@
+function btnn() {
+  let result1 = document.getElementById("textarea").value;
+  // let word = result1.trim().split(/\s+/, " ").length;
+  let count = 0;
+  let newString = result1.split(" ");
+  for (let i = 0; i < newString.length; i++) {
+    if (newString[i] !== "") {
+      count += 1;
+    }
+  }
+
+  //console.log(num);
+  document.getElementById("number").value = count;
+  let numChar = result1.length;
+  document.getElementById("character").value = numChar;
+  let countVowels = result1.match(/[aeiouAEIOU]/gi).length;
+  document.getElementById("vowel").value = countVowels;
+  let countConsonant = result1.match().length;
+  document.getElementById("consonant").value = countConsonant;
+  let specialCharacter = result1.match(
+    /[!@#$%^&*()_-+={[]}:;"'<.,>\~`]/gi
+  ).length;
+  document.getElementById("special").value = specialCharacter;
+}
+function upper() {
+  let uper = document.getElementById("textarea").value;
+  let str1 = uper.toUpperCase();
+
+  document.getElementById("textarea").value = str1;
+}
+function lower() {
+  let lowr = document.getElementById("textarea").value;
+  let str2 = lowr.toLowerCase();
+
+  document.getElementById("textarea").value = str2;
+}
+
+function rest() {
+  document.getElementById("textarea").value = " ";
+  document.getElementById("number").value = " ";
+  document.getElementById("character").value = " ";
+}
+
+
+
+
+personal access token is :
+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
+
+
+with help of this tool, we can count and show the number of worlds present in any paragraph or blog.
